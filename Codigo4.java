@@ -13,7 +13,7 @@ public class Codigo4 {
         Scanner s2 = new Scanner(System.in); //faltaba el System.in
         String j2 = s2.nextLine(); //corregi el s. por el s2.
 
-        if (j1.equals(j2)) { //camvie el == por .equals ya que este funciona con Strings.
+        if (j1.equals(j2)) { //cambie el == por .equals ya que este funciona con Strings.
             System.out.println("Empate");
         } else {
             int g = 2;
